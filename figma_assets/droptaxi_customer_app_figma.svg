@@ -1,0 +1,145 @@
+<svg width="420" height="880" viewBox="0 0 420 880" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Phone Frame -->
+  <rect x="10" y="10" width="400" height="860" rx="48" fill="#0B132B" stroke="#1E293B" stroke-width="8"/>
+  <rect x="18" y="18" width="384" height="844" rx="42" fill="#0F172A"/>
+
+  <!-- Dynamic Island Notch -->
+  <rect x="140" y="28" width="140" height="28" rx="14" fill="#000000"/>
+  <circle cx="255" cy="42" r="5" fill="#1E293B"/>
+
+  <!-- Status Bar -->
+  <text x="45" y="46" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">9:41</text>
+  <path d="M360 38h18v10h-18z" fill="#F8FAFC" rx="2"/>
+  <path d="M379 41h2v4h-2z" fill="#F8FAFC"/>
+
+  <!-- App Header -->
+  <g transform="translate(30, 75)">
+    <!-- Avatar / Menu -->
+    <rect x="0" y="0" width="40" height="40" rx="12" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="12" y="25" fill="#CBDDE9" font-size="16">☰</text>
+
+    <!-- App Brand -->
+    <text x="52" y="20" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">DropTaxi &amp; Freight</text>
+    <text x="52" y="34" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">Fast &amp; Reliable Transit</text>
+
+    <!-- Notification Bell -->
+    <rect x="320" y="0" width="40" height="40" rx="12" fill="#2872A1" fill-opacity="0.2" stroke="#2872A1" stroke-width="1"/>
+    <text x="332" y="25" fill="#38BDF8" font-size="16">🔔</text>
+  </g>
+
+  <!-- Service Mode Switcher (DropTaxi vs Goods Truck) -->
+  <g transform="translate(30, 130)">
+    <rect x="0" y="0" width="360" height="50" rx="16" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <!-- Active Taxi Tab -->
+    <rect x="4" y="4" width="174" height="42" rx="12" fill="#2872A1"/>
+    <text x="40" y="30" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">🚕 DropTaxi (Cab)</text>
+
+    <!-- Goods Truck Tab -->
+    <text x="210" y="30" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🚚 Goods Truck</text>
+  </g>
+
+  <!-- Route Card -->
+  <g transform="translate(30, 195)">
+    <rect x="0" y="0" width="360" height="116" rx="20" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    
+    <!-- Pickup -->
+    <circle cx="24" cy="32" r="6" fill="#10B981"/>
+    <text x="42" y="26" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500">PICKUP LOCATION</text>
+    <text x="42" y="42" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Chennai Central Railway Station</text>
+
+    <!-- Connecting line -->
+    <line x1="24" y1="42" x2="24" y2="74" stroke="#475569" stroke-width="2" stroke-dasharray="3 3"/>
+
+    <!-- Drop -->
+    <circle cx="24" cy="84" r="6" fill="#EF4444"/>
+    <text x="42" y="78" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500">DESTINATION (OMR CORRIDOR)</text>
+    <text x="42" y="94" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Tidel Park Tech Hub, OMR</text>
+
+    <!-- Distance Badge -->
+    <rect x="280" y="12" width="68" height="24" rx="8" fill="#2872A1" fill-opacity="0.25"/>
+    <text x="290" y="28" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">16.4 km</text>
+  </g>
+
+  <!-- Map Simulation Preview Box -->
+  <g transform="translate(30, 325)">
+    <rect x="0" y="0" width="360" height="120" rx="20" fill="#0B192C" stroke="#2872A1" stroke-width="1.5"/>
+    <!-- Simulated Grid Roads -->
+    <path d="M0 60 Q 90 20, 180 60 T 360 40" stroke="#2872A1" stroke-width="6" fill="none" opacity="0.6"/>
+    <path d="M60 0 L 120 120 M 240 0 L 200 120" stroke="#1E293B" stroke-width="3" fill="none"/>
+    
+    <!-- Moving Taxi Icon -->
+    <circle cx="160" cy="54" r="16" fill="#2872A1" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="151" y="60" font-size="14">🚕</text>
+    
+    <!-- Pulse badge -->
+    <rect x="12" y="12" width="118" height="24" rx="12" fill="#0F172A" stroke="#10B981" stroke-width="1"/>
+    <circle cx="22" cy="24" r="4" fill="#10B981"/>
+    <text x="32" y="28" fill="#10B981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">4 DRIVERS NEARBY</text>
+  </g>
+
+  <!-- Vehicle Selection Section -->
+  <g transform="translate(30, 460)">
+    <text x="0" y="0" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Select Vehicle Category</text>
+    
+    <!-- Option 1: Sedan (Selected) -->
+    <g transform="translate(0, 12)">
+      <rect x="0" y="0" width="360" height="70" rx="16" fill="#2872A1" fill-opacity="0.15" stroke="#2872A1" stroke-width="2"/>
+      <rect x="12" y="12" width="46" height="46" rx="12" fill="#2872A1" fill-opacity="0.3"/>
+      <text x="22" y="42" font-size="24">🚗</text>
+      
+      <text x="68" y="30" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">DropTaxi Sedan</text>
+      <text x="68" y="46" fill="#CBDDE9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Swift Dzire / Etios • 4 Seats AC</text>
+
+      <text x="280" y="32" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800">₹296</text>
+      <text x="296" y="48" fill="#10B981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">3 min</text>
+    </g>
+
+    <!-- Option 2: Mini -->
+    <g transform="translate(0, 90)">
+      <rect x="0" y="0" width="360" height="66" rx="16" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <rect x="12" y="10" width="46" height="46" rx="12" fill="#334155"/>
+      <text x="22" y="40" font-size="24">🚕</text>
+
+      <text x="68" y="28" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600">DropTaxi Mini</text>
+      <text x="68" y="44" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">WagonR / Indica • 4 Seats</text>
+
+      <text x="284" y="30" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">₹242</text>
+      <text x="296" y="46" fill="#10B981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">2 min</text>
+    </g>
+
+    <!-- Option 3: Goods 1-Ton -->
+    <g transform="translate(0, 164)">
+      <rect x="0" y="0" width="360" height="66" rx="16" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <rect x="12" y="10" width="46" height="46" rx="12" fill="#334155"/>
+      <text x="22" y="40" font-size="24">🛻</text>
+
+      <text x="68" y="28" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600">Goods Truck 1-Ton</text>
+      <text x="68" y="44" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Tata Ace / Bolero • 1000kg Payload</text>
+
+      <text x="284" y="30" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">₹610</text>
+      <text x="296" y="46" fill="#10B981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">5 min</text>
+    </g>
+  </g>
+
+  <!-- Book Ride CTA Button -->
+  <g transform="translate(30, 715)">
+    <rect x="0" y="0" width="360" height="54" rx="18" fill="#2872A1"/>
+    <text x="96" y="33" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Confirm Booking • ₹296</text>
+  </g>
+
+  <!-- Bottom Navigation Bar -->
+  <g transform="translate(30, 790)">
+    <line x1="0" y1="0" x2="360" y2="0" stroke="#1E293B" stroke-width="1"/>
+    <text x="28" y="28" fill="#38BDF8" font-size="18">🏠</text>
+    <text x="24" y="44" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700">Home</text>
+
+    <text x="120" y="28" fill="#64748B" font-size="18">📦</text>
+    <text x="114" y="44" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9">My Rides</text>
+
+    <text x="215" y="28" fill="#64748B" font-size="18">💳</text>
+    <text x="211" y="44" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9">Wallet</text>
+
+    <text x="310" y="28" fill="#64748B" font-size="18">⚙️</text>
+    <text x="304" y="44" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9">Profile</text>
+  </g>
+</svg>
